@@ -23,7 +23,7 @@ DefaultPcbPcad=0
 ReorderDocumentsOnCompile=1
 NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
-AutoSheetNumbering=1
+AutoSheetNumbering=0
 AutoCrossReferences=1
 NewIndexingOfSheetSymbols=1
 PushECOToAnnotationFile=1
@@ -182,11 +182,19 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=QNWYVDEJ
 
 [Parameter1]
+Name=VersionRevision
+Value=V1I1
+
+[Parameter2]
 Name=NotFitted
 Value=NF
+
+[Parameter3]
+Name=Company
+Value=(c) Repulsor
 
 [Configuration1]
 Name=Sources
