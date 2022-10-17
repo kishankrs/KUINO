@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=16U2_SCLK_R Pin=J6-3
+Removed Pin From Net: NetName=16U2_SCLK_R Pin=R6-2
+Added Pin To Net: NetName=16U2_SCLK Pin=J6-3
+Added Pin To Net: NetName=16U2_SCLK Pin=R6-2
+Added Net: Name=16U2_SCLK
