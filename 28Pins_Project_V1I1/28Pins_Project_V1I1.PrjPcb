@@ -205,21 +205,25 @@ DocumentUniqueId=
 DocumentPath=Project Outputs for 28Pins_Project_V1I1\BOM\28Pins BOM Purchasing-28Pins_Project_V1I1.xls
 DItemRevisionGUID=
 
+[GeneratedDocument2]
+DocumentPath=Project Outputs for 28Pins_Project_V1I1\Design Rule Check - 28Pins_Project_V1I1_PCB.html
+DItemRevisionGUID=
+
 [Parameter1]
-Name=VersionRevision
-Value=V1I1
+Name=Company
+Value=(c) Repulsor
 
 [Parameter2]
-Name=Title
-Value=28Pins-Kuino
-
-[Parameter3]
 Name=NotFitted
 Value=NF
 
+[Parameter3]
+Name=Title
+Value=28Pins-Kuino
+
 [Parameter4]
-Name=Company
-Value=(c) Repulsor
+Name=VersionRevision
+Value=V1I1
 
 [Configuration1]
 Name=Sources
@@ -931,6 +935,7 @@ Type116=1
 Type117=1
 Type118=1
 Type119=1
+Type120=1
 
 [Difference Levels]
 Type1=1
