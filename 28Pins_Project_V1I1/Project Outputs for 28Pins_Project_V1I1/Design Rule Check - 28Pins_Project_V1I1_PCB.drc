@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Public\Documents\Altium\Projects\28Pins_Project_V1I1\28Pins_Project_V1I1_PCB.PcbDoc
-Date     : 23-10-2022
-Time     : 02:12:28 AM
+Date     : 06-11-2022
+Time     : 09:34:41 PM
 
 Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
 Rule Violations :0
@@ -15,8 +15,12 @@ Rule Violations :0
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.3mm) (Max=0.5mm) (Preferred=0.3mm) (All)
+Processing Rule : Width Constraint (Min=0.4mm) (Max=4mm) (Preferred=0.4mm) (InNet('+*') or InNet('GND'))
 Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=0.254mm) (Preferred=0.254mm) (All)
+   Violation between Width Constraint: Track (39.205mm,12.445mm)(41.45mm,10.2mm) on L1 Actual Width = 0.3mm, Target Width = 0.254mm
+Rule Violations :1
 
 Processing Rule : Routing Layers(All)
 Rule Violations :0
@@ -42,12 +46,36 @@ Rule Violations :1
 
 Processing Rule : Silk To Solder Mask (Clearance=0.1mm) (IsPad),(All)
    Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.1mm) Between Arc (15.24mm,50.8mm) on Top Overlay And Pad J4-10(18.796mm,50.8mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0mm]
-Rule Violations :1
+   Violation between Silk To Solder Mask Clearance Constraint: (0.067mm < 0.1mm) Between Pad SW1-3(61.25mm,31.65mm) on Multi-Layer And Track (57.658mm,32.766mm)(61.214mm,32.766mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.067mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.067mm < 0.1mm) Between Pad SW1-3(61.25mm,31.65mm) on Multi-Layer And Track (61.214mm,32.766mm)(61.214mm,34.798mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.067mm]
+Rule Violations :3
 
 Processing Rule : Silk to Silk (Clearance=0.1mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertical Gap = 0mm ) (InComponent('U5')),(InComponent('C28')) 
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertical Gap = 0mm ) (InComponent('C11')),(InComponent('JP1')) 
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertical Gap = 0mm ) (InComponent('MH1')),(InComponent('SW2')) 
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertical Gap = 0mm ) (InComponent('R24')),(InComponent('SW2')) 
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertical Gap = 0mm ) (InComponent('J2')),(InComponent('MH2')) 
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0.2mm, Vertical Gap = 0.2mm ) (All),(All) 
+   Violation between Component Clearance Constraint: (Collision < 0.2mm) Between DIP Component U3-ATMEGA328P-PU (62.065mm,20.193mm) on L1 And SMT Small Component SCKT FOR U1-28-DIP Socket (27.686mm,11.43mm) on L1 
+Rule Violations :1
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertical Gap = 0mm ) (InComponent('SCKT FOR U1')),(InComponent('MH2') or InComponent('U1')) 
 Rule Violations :0
 
 Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertical Gap = 0mm ) (InComponent('R14')),(InComponent('R15')) 
@@ -56,32 +84,10 @@ Rule Violations :0
 Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertical Gap = 0mm ) (InComponent('MH4')),(InComponent('FID4') or InComponent('J4')) 
 Rule Violations :0
 
-Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertical Gap = 0mm ) (InComponent('R24')),(InComponent('SW2')) 
-Rule Violations :0
-
-Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertical Gap = 0mm ) (InComponent('MH1')),(InComponent('SW2')) 
-Rule Violations :0
-
-Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertical Gap = 0mm ) (InComponent('C11')),(InComponent('JP1')) 
-Rule Violations :0
-
-Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertical Gap = 0mm ) (InComponent('U5')),(InComponent('C28')) 
-Rule Violations :0
-
-Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0.2mm, Vertical Gap = 0.2mm ) (All),(All) 
-   Violation between Component Clearance Constraint: (Collision < 0.2mm) Between DIP Component U3-ATMEGA328P-PU (62.065mm,20.193mm) on Top Layer And SMT Small Component SCKT FOR U1-28-DIP Socket (27.686mm,11.43mm) on Top Layer 
-Rule Violations :1
-
-Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertical Gap = 0mm ) (InComponent('SCKT FOR U1')),(InComponent('MH2') or InComponent('U1')) 
-Rule Violations :0
-
-Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertical Gap = 0mm ) (InComponent('J2')),(InComponent('MH2')) 
-Rule Violations :0
-
 Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
 Rule Violations :0
 
 
-Violations Detected : 3
+Violations Detected : 6
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:05
