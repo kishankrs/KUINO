@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Public\Documents\Altium\Projects\28Pins_Project_V1I1\28Pins_Project_V1I1_PCB.PcbDoc
-Date     : 15-11-2022
-Time     : 12:29:43 AM
+Date     : 28-11-2022
+Time     : 04:08:08 PM
 
 Processing Rule : Clearance Constraint (Gap=0.3mm) (IsRegion),(All)
 Rule Violations :0
@@ -19,15 +19,7 @@ Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
 Processing Rule : Width Constraint (Min=0.4mm) (Max=4mm) (Preferred=0.4mm) (InNet('+*') or InNet('GND'))
-   Violation between Width Constraint: Track (19.812mm,20.55mm)(19.812mm,21.538mm) on L1 Actual Width = 0.254mm, Target Width = 0.4mm
-   Violation between Width Constraint: Track (19.8mm,21.55mm)(19.812mm,21.538mm) on L1 Actual Width = 0.254mm, Target Width = 0.4mm
-   Violation between Width Constraint: Track (36.688mm,8.236mm)(37.018mm,8.236mm) on L1 Actual Width = 0.254mm, Target Width = 0.4mm
-   Violation between Width Constraint: Track (37.07mm,6.35mm)(37.089mm,6.369mm) on L2 Actual Width = 0.254mm, Target Width = 0.4mm
-   Violation between Width Constraint: Track (41.745mm,12.573mm)(42.203mm,12.115mm) on L1 Actual Width = 0.254mm, Target Width = 0.4mm
-   Violation between Width Constraint: Track (5.208mm,26.162mm)(6.851mm,24.519mm) on L1 Actual Width = 0.254mm, Target Width = 0.4mm
-   Violation between Width Constraint: Track (54.75mm,31.65mm)(55.065mm,31.965mm) on L1 Actual Width = 0.254mm, Target Width = 0.4mm
-   Violation between Width Constraint: Track (6.851mm,24.519mm)(8.531mm,24.519mm) on L1 Actual Width = 0.254mm, Target Width = 0.4mm
-Rule Violations :8
+Rule Violations :0
 
 Processing Rule : Width Constraint (Min=0.254mm) (Max=0.254mm) (Preferred=0.254mm) (All)
 Rule Violations :0
@@ -50,12 +42,14 @@ Rule Violations :0
 Processing Rule : Hole Size Constraint (Min=0.2mm) (Max=10mm) (All)
 Rule Violations :0
 
+Processing Rule : Pads and Vias to follow the Drill pairs settings
+Rule Violations :0
+
 Processing Rule : Hole To Hole Clearance (Gap=0.3mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Minimum Solder Mask Sliver (Gap=0.1mm) (All),(All)
-   Violation between Minimum Solder Mask Sliver Constraint: (0.012mm < 0.1mm) Between Pad MH1-1(13.97mm,2.54mm) on Multi-Layer And Pad SW2-3(18.75mm,1.65mm) on Multi-Layer [Top Solder] Mask Sliver [0.012mm] / [Bottom Solder] Mask Sliver [0.012mm]
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Silk To Solder Mask (Clearance=0.1mm) (IsPad),(All)
    Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.1mm) Between Arc (15.24mm,50.8mm) on Top Overlay And Pad J4-10(18.796mm,50.8mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0mm]
@@ -85,10 +79,9 @@ Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertica
 Rule Violations :0
 
 Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0.2mm, Vertical Gap = 0.2mm ) (All),(All) 
-   Violation between Component Clearance Constraint: (Collision < 0.2mm) Between DIP Component U3-ATMEGA328P-PU (62.065mm,20.193mm) on L1 And SMT Small Component SCKT FOR U1-28-DIP Socket (27.686mm,11.43mm) on L1 
-Rule Violations :1
+Rule Violations :0
 
-Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertical Gap = 0mm ) (InComponent('SCKT FOR U1')),(InComponent('MH2') or InComponent('U1')) 
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertical Gap = 0mm ) (InComponent('SCKT FOR U1')),(InComponent('MH2') or InComponent('U3')) 
 Rule Violations :0
 
 Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertical Gap = 0mm ) (InComponent('R14')),(InComponent('R15')) 
@@ -101,6 +94,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (Al
 Rule Violations :0
 
 
-Violations Detected : 13
+Violations Detected : 3
 Waived Violations : 0
 Time Elapsed        : 00:00:02
