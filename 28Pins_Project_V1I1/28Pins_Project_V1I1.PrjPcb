@@ -43,6 +43,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=5V/3V3
 
 [Preferences]
 PrefsVaultGUID=
@@ -390,6 +391,14 @@ ParamVariationCount=79
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for 28Pins_Project_V1I1\Design Rule Check - 28Pins_Project_V1I1_PCB.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for 28Pins_Project_V1I1\Pick Place\Pick Place for 28Pins_Project_V1I1_PCB(5V_3V3).txt
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for 28Pins_Project_V1I1\Pick Place\Pick Place for 28Pins_Project_V1I1_PCB(Fixed 5V).txt
 DItemRevisionGUID=
 
 [Parameter1]
