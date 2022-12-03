@@ -33,7 +33,7 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=0
 IsVirtualBomDocumentRemoved=0
-OutputPath=
+OutputPath=Project Outputs for 28Pins_Project_V1I1
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -393,29 +393,25 @@ ParamVariationCount=79
 DocumentPath=Project Outputs for 28Pins_Project_V1I1\Design Rule Check - 28Pins_Project_V1I1_PCB.html
 DItemRevisionGUID=
 
-[GeneratedDocument2]
-DocumentPath=Project Outputs for 28Pins_Project_V1I1\Pick Place\Pick Place for 28Pins_Project_V1I1_PCB(5V_3V3).txt
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for 28Pins_Project_V1I1\Pick Place\Pick Place for 28Pins_Project_V1I1_PCB(Fixed 5V).txt
-DItemRevisionGUID=
-
 [Parameter1]
-Name=Company
-Value=(c) Repulsor
+Name=VersionRevision
+Value=V1I1
 
 [Parameter2]
-Name=NotFitted
-Value=NF
-
-[Parameter3]
 Name=Title
 Value=28Pins-Kuino
 
+[Parameter3]
+Name=Project
+Value=28Pins
+
 [Parameter4]
-Name=VersionRevision
-Value=V1I1
+Name=NotFitted
+Value=NF
+
+[Parameter5]
+Name=Company
+Value=(c) Repulsor
 
 [Configuration1]
 Name=Sources
@@ -426,6 +422,9 @@ Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
+
+[Generic_EDE]
+OutputDir=Project Outputs for 28Pins_Project_V1I1
 
 [OutputGroup1]
 Name=Netlist Outputs
